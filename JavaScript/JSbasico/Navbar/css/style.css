@@ -9,7 +9,7 @@
 body {
     height: 100%;
     background-color: #000;
-    background-image: linear-gradient(to right, #9e15d4fa, #3d12da);
+    background-image: linear-gradient(to right, #d8084efa, #09e42d);
     background-position: center;
 
 
@@ -83,6 +83,18 @@ header {
 .action-btn:active{
     scale: 0.95;
 }
+.action-btn_home{
+    background-color: orange;
+    color: #fff;
+    padding: 0.5rem 3rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: scale .2 ease;
+}
 /* ----- DROPDOWN MENU ----- */
 
 .dropdrown_menu{
@@ -141,7 +153,7 @@ section#hero{
     .navbar .toggle-btn{
         display: block;
     }
-    .dropdrown_menu{
+    .dropdrown_menu, .action-btn_home{
         display: block;
     }
 }
