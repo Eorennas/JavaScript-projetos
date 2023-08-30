@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #4ee9c7;
-    --primary-color-dark: #2e7385;
+    --primary-color: #4f1accb9;
+    --primary-color-dark: #7437b9;
 }
 *{
     box-sizing: border-box;
@@ -66,11 +66,11 @@ button {
     display: inline-flex;
     flex: 1 1 auto;
     font-family: Inter, sans-serif;
-    font-size: 0.5em;
+    font-size: 10px;
     font-weight: 700;
     justify-content: center;
     line-height: 1;
-    margin: 0;
+    margin: 2px;
     outline: none;
     padding: 1em 1.2rem;
     text-align: center;
